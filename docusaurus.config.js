@@ -1,17 +1,17 @@
 module.exports = {
-    title: "RaidGuild Handbook",
-    tagline: "Your guide to Raiding with the RaidGuild",
+    title: "Handbook",
+    tagline: "The Complete Guide to Atelier Studio Structure and Process",
     url: "https://handbook.raidguild.org",
     baseUrl: "/",
-    favicon: "img/rg-icon.png",
-    organizationName: "raid-guild", // Usually your GitHub org/user name.
-    projectName: "Handbook", // Usually your repo name.
+    favicon: "img/rsz_atelierlogo.png",
+    organizationName: "kevinknielsen", // Usually your GitHub org/user name.
+    projectName: "handbook", // Usually your repo name.
     themeConfig: {
         navbar: {
-            title: "RaidGuild",
+            title: "Atelier Product Studios",
             logo: {
                 alt: "RaidGuild Logo",
-                src: "img/rg-icon.png",
+                src: "img/atelierlogo.png",
             },
             links: [
                 // { to: "docs/raidCentral", label: "Handbook", position: "left" },
@@ -53,7 +53,7 @@ module.exports = {
             //     ]
             //   }
             // ],
-            copyright: `Copyright © ${new Date().getFullYear()} RaidGuild, DAO`,
+            copyright: `Copyright © ${new Date().getFullYear()} Atelier Studios`,
         },
     },
     presets: [

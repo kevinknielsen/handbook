@@ -8,19 +8,18 @@ import styles from "./styles.module.css";
 
 const features = [
     {
-        title: "Guild Structure",
-        imageUrl: "img/crown.svg",
+        title: "Studio Structure",
+        imageUrl: "img/moonicon.png",
         description: (
             <>
-                Learn how RaidGuild is structured into different factions and
-                ranks and how you can make your journey from Apprentice to
-                Master.
+                Learn how Atelier is structured into different business units and how you can make your journey from Junior to
+                Manager.
             </>
         ),
     },
     {
         title: "Project Management",
-        imageUrl: "img/axes.svg",
+        imageUrl: "img/pmicon.png",
         description: (
             <>
                 The handbook contains all the guidelines, tools and resources to
@@ -30,7 +29,7 @@ const features = [
     },
     {
         title: "Internal Ops",
-        imageUrl: "img/magic.svg",
+        imageUrl: "img/cogsicon.png",
         description: (
             <>
                 How we collaborate and coordinate is the most important thing
@@ -69,6 +68,7 @@ function Home() {
                 className={classnames("hero hero--primary", styles.heroBanner)}
             >
                 <div className='container'>
+                    <img src="img/rsz_atelierlogo.png"></img>
                     <h1 className='hero__title'>{siteConfig.title}</h1>
                     <p className='hero__subtitle'>{siteConfig.tagline}</p>
                     <div className={styles.buttons}>
@@ -77,6 +77,7 @@ function Home() {
                                 "button button--outline button--secondary button--lg",
                                 styles.getStarted
                             )}
+                            style={{ color: "white" }}
                             to={useBaseUrl("docs/overview")}
                         >
                             Get Started
